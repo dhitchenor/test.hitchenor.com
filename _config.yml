@@ -1,0 +1,13 @@
+title: My Custom Blog
+description: A blog built with Jekyll and custom HTML/CSS.
+markdown: kramdown
+theme: null
+exclude:
+  - .github
+  - .gitignore
+  - CNAME
+  - index.html
+  - LICENSE.md
+  - robots.html
+permalink: /:path/
+
