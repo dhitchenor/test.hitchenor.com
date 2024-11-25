@@ -1,13 +1,14 @@
-title: My Custom Blog
+title: Dale's Blog
 description: A blog built with Jekyll and custom HTML/CSS.
 markdown: kramdown
 theme: null
+permalink: /blog
+include:
+  - blog/
 exclude:
+  - .git
   - .github
   - .gitignore
   - CNAME
   - index.html
   - LICENSE.md
-  - robots.html
-permalink: /:path/
-
